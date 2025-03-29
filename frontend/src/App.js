@@ -36,7 +36,7 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/simulate', {
+      const response = await axios.post('https://stock-history-checker1-3.onrender.com//simulate', {
         symbol,
         type,
         amount,
